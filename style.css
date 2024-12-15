@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: lato;
+    src: url(Fonts/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: lato bold ;
+    src: url(Fonts/Lato-Bold.ttf);
+}
+
+
+
+body{
+    font-family: lato;
+}
+
+
+#header{
+    background-image: url(IMG/Background\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+
+
+
+.logo{
+    width: 10%;
+    height: 20%;
+    margin-left: 2em;
+
+}
+
+.titulo{
+    color: rgb(255, 255, 255);
+    font-size:100px;
+    font-family: lato bold;
+}
+.b1{
+    border: solid;
+    border-radius: 0.5em;
+    width: 8%;
+    height: 5%;
+    font-size: 15px;
+    background: none; 
+    color: white;
+    font-family: lato bold;
+    margin-left: 60em;
+   
+    
+}
+
+.b2{
+    border: solid;
+    border-radius: 0.5em;
+    width: 8%;
+    height: 5%;
+    font-size: 15px;
+    background: none; 
+    color: white;
+    font-family: lato bold;
+}
+.b3{
+    border: solid;
+    border-radius: 0.5em;
+    width: 8%;
+    height: 5%;
+    font-size: 15px;
+    background: none; 
+    color: white;
+    font-family: lato bold;
+}
+
+.b4{
+    border: solid;
+    border-radius: 0.5em;
+    width: 8%;
+    height: 5%;
+    font-size: 15px;
+    background: none; 
+    color: white;
+    font-family: lato bold;
+    margin-left: 4em;
+    margin-top: 8em;}
+    
+
+
+.titulo{
+    font-family: lato bold;
+    font-size: 100px;
+    color: white;
+    margin-left: 0.5em;
+    margin-top: 1em;
+}
+
+#sc1{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    
+}
+
+.titulo2{
+    font-family: lato bold;
+    font-size: 100px;
+    color: white;
+    margin-left: 0.8em;
+    
+}
+
+.soy{
+    width: 40%;
+    margin-left: 5em;
+    margin-top: 10em;
+}
+
+.posudo{
+    margin-left: 60em;
+    margin-top: -33em;
+    width: 25%;
+    border-radius: 2%;
+}
+
+#sc2{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    color: white;
+}
+.hobbies{
+    width: 40%;
+    margin-left: 5em;
+    margin-top: 2em;
+}
+
+.voley1{
+    width: 25%;
+    margin-top: -15em;
+    margin-left: 60em;
+    border-radius:2% ;
+}
+
+.acordeones{
+    width: 40%;
+    margin-left: 4.5em;
+    margin-top: -18em;
+}
+
+#sc3{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    color: white;
+}
+.tarjjj{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    gap: 2em;
+    flex-wrap: wrap
+}
+.trabajos{
+    font-family: lato bold;
+    font-size: 100px;
+    color: rgb(253, 253, 253);
+}
+
+.card1{
+
+    background-color: white;
+    color: black;
+    height: 20em;
+    border-radius: 2%;
+    text-align: center;
+}
+#sc3 img{
+    border-radius: 3% 3% 0% 0%;
+}
+.card2{
+    background-color: white;
+    color: black;
+    height: 20em;
+    border-radius: 2%;
+    text-align: center;
+}
+.card3{
+
+    background-color: white;
+    color: black;
+    height: 20em;
+    border-radius: 2%;
+    text-align: center;
+}
+.card4{
+    background-color: white;
+    color: black;
+    height: 20em;
+    border-radius: 2%;
+    text-align: center;
+}
+
+
+
+
+/* ---------- galeria css ----------*/ 
+.sc4{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    width: 100%;
+    height: 150vh;
+    gap: 2em;
+    text-align: center;
+    color: white;
+}
+    .ddd{
+        size: cover;
+        position: absolute;
+        width: 90%vh;  
+        filter: blur(20px) brightness(0.64);
+    }
+    .Galeria{
+        z-index: 1;
+        font-size: 80px;
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        font-family: lato;
+    }
+    .sc4 #carouselExampleFade{
+        width: 30%;
+        height: 50vh;
+    }
+        .sc4 #carouselExampleFade img{
+            border-radius: 16px;
+        }
+/* ----------- galeria css -----------*/ 
+
+
+
+
+#sc5{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2em;
+    background-color: black;
+    width: 100%;
+    color: white;
+}
+
+    .contacto{
+        font-family: lato bold;
+        font-size: 100px;
+        color: white;
+        margin-left: 0.8em; 
+    }
+    #sc5 div{
+        display: flex;
+        flex-direction: row;
+        gap: 1em;
+        justify-content: space-around;
+        align-items: center;
+    }
+        #sc5 div ul li{
+            margin: 4em;
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: center;
+            align-items: center;
+            gap: 1em;
+            list-style: none;
+        }
+        .posudo2{
+            width: 30%;
+            border-radius: 10px;
+        }
+    .logo1{
+        width: 20%;
+        align-self: flex-start;
+    }
